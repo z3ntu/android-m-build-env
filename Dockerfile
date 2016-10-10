@@ -32,7 +32,7 @@ RUN apt-get update \
 
 # Install repo
 RUN mkdir -p /usr/local/repo/bin \
- && curl --tlsv1 https://storage.googleapis.com/git-repo-downloads/repo > \
+ && curl https://storage.googleapis.com/git-repo-downloads/repo > \
     /usr/local/repo/bin/repo \
  && chmod +x /usr/local/repo/bin/repo
 ENV PATH /usr/local/repo/bin:$PATH
