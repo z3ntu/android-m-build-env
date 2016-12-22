@@ -4,7 +4,7 @@ FROM ubuntu:16.04
 RUN apt-get update \
  && apt-get install -y software-properties-common \
  && add-apt-repository ppa:openjdk-r/ppa -y \
- && apt-get update
+ && apt-get update \
  && apt-get install -y \
     openjdk-7-jdk \
     git-core \
