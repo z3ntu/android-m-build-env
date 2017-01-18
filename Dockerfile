@@ -32,6 +32,8 @@ RUN apt-get update \
     ca-certificates \
     vim \
     bsdmainutils \
+    imagemagick \
+    schedtool \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
