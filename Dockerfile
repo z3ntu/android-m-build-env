@@ -34,6 +34,7 @@ RUN apt-get update \
     bsdmainutils \
     imagemagick \
     schedtool \
+    maven \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
