@@ -31,6 +31,7 @@ RUN apt-get update \
     python-networkx \
     ca-certificates \
     vim \
+    bsdmainutils \
  && apt-get clean \
  && rm -rf /var/lib/apt/lists/*
 
